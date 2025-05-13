@@ -1,6 +1,12 @@
 # Heliostat
 
+This repository is for a high school final project. 
 
+Here all code that was a part of the project is available. 
+
+The file named Main_code is the final code version which was used for tests. 
+
+Abstract:
 The project aims to create a heliostat (a solar panel that follows the sun) and determine if it can generate more energy than a stationary solar panel, factoring in the energy required to follow the sun. 
 
 The heliostat uses the INA219 sensor to monitor the charging current and the ESP HUZZAH32 to measure the battery's voltage. This data is transmitted to Adafruit AIO via Wi-Fi. To adjust the solar panel’s position and track the sun, the heliostat utilizes the Adafruit servo driver and SG90 servos. The hardware was both purchased and sourced from Pauliskolan's storage. The code was written in C++ using Arduino IDE with easy access to libraries and code sourced from previous attempts at creating a heliostat, which all can be found on Github. All the hardware used in the heliostat was soldered together to utilize I2C as communication. The static solar station was sourced from a previous project requiring minimal adjustments. 
